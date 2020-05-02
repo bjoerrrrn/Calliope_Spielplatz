@@ -1,5 +1,8 @@
+let Temperatur_Real = 0
 basic.forever(function () {
-    if (input.temperature() <= 25) {
+    Temperatur_Real = input.temperature()
+    Temperatur_Real += -12.5
+    if (Temperatur_Real <= 25) {
         basic.setLedColor(0x007fff)
         basic.showString("Temp" + input.temperature() + "° C")
     } else {

@@ -1,5 +1,5 @@
 {
-    "name": "HelloWorld",
+    "name": "Temperatur_Warner",
     "description": "",
     "dependencies": {
         "core": "*",
